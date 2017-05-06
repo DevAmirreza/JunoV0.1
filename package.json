@@ -4,9 +4,8 @@
   "description": "Customizable Web Crawler ",
   "main": "index.js",
   "scripts": {
-	"start" : "index.js" ,
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+	"start" : "index.js" 
+	},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/atnn/JunoV0.1.git"
