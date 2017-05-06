@@ -13,6 +13,8 @@ const server = http.createServer(requestHandler)
 server.listen(port, (err) => {  
   if (err) {
     return console.log('something bad happened', err)
-  }
+  }else
+	    response.end('Hello Node.js Server!') ; 
+
 
 })
