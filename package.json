@@ -1,0 +1,19 @@
+{
+  "name": "juno",
+  "version": "1.0.0",
+  "description": "Customizable Web Crawler ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atnn/JunoV0.1.git"
+  },
+  "author": "Amirreza Yadollahibastani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atnn/JunoV0.1/issues"
+  },
+  "homepage": "https://github.com/atnn/JunoV0.1#readme"
+}
