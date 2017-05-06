@@ -1,20 +1,10 @@
-// content of index.js
-const http = require('http')  
-const port = 3000
+var express = require('express')
+var app = express()
 
-const requestHandler = (request, response) => {  
-  console.log(request.url) ;
-  if(request.url == "")
-  response.end('Hello Node.js Server!') ; 
-}
+app.get('/', function (req, res) {
+  res.send('Hello World!')
+})
 
-const server = http.createServer(requestHandler)
-
-server.listen(port, (err) => {  
-  if (err) {
-    return console.log('something bad happened', err)
-  }else
-	    response.end('Hello Node.js Server!') ; 
-
-
+app.listen(3000, function () {
+  console.log('Server has started successfully')
 })
